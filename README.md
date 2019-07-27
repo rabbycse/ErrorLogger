@@ -1,7 +1,7 @@
 # ErrorLogger
 - Install the nuget package or reference the project into your asp.net core application.
 
-![ngt](https://user-images.githubusercontent.com/37344605/61993174-a5317200-b089-11e9-9fb4-182c23aa3219.png)
+![ngt](https://user-images.githubusercontent.com/37344605/61993202-2a1c8b80-b08a-11e9-9522-be8ac5b0a4c6.png)
 
 
 - Add the AddLog4Net() call into your Configure method of the Startup class.
