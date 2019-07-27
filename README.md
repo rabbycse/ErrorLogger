@@ -68,7 +68,7 @@ public class HomeController
 }
 ```
 ## Ouput
-  - Go to (c:\Temp\app.log):
+  - Go to (**c:\Temp\app.log**):
 
 ![log](https://user-images.githubusercontent.com/37344605/61993011-95189300-b087-11e9-95b6-4c9fd5fa1f74.png)
 
