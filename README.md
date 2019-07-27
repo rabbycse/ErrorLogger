@@ -24,7 +24,7 @@ public class Startup
 
 - Add a log4net.config file with the content:
 
-```config
+```cs
 <?xml version="1.0" encoding="utf-8"?>
 <log4net>
   <appender name="RollingFile" type="log4net.Appender.FileAppender">
@@ -38,4 +38,26 @@ public class Startup
     <appender-ref ref="RollingFile" />
   </root>
 </log4net>
+```
+- Add a HomeController.cs file with the content:
+
+```cs
+public class HomeController
+{
+    //...
+
+    public HomeController(ILoggerFactory loggerFactory)
+        {
+            var logger = loggerFactory.CreateLogger("RollingFile");
+
+            logger.LogCritical("Hello");
+
+         #if DEBUG
+                   logger.LogDebug("This is a debug log");
+         #endif
+         
+        }
+        
+        //...
+}
 ```
