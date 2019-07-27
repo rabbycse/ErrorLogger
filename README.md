@@ -26,7 +26,6 @@ public class Startup
 
 ```
 
-- Then **log4net.config**->**Propertise**->**Copy to Output Directory**->Change to **Copy if newer**
 
 - Add a **log4net.config** file with the content:
 
@@ -45,6 +44,9 @@ public class Startup
   </root>
 </log4net>
 ```
+
+- Then **log4net.config**->**Propertise**->**Copy to Output Directory**->Change to **Copy if newer**
+
 - Add a **HomeController.cs** file with the content:
 
 ```cs
