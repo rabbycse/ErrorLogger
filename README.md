@@ -1,5 +1,5 @@
 # ErrorLogger
-- Install the package or reference the project into your asp.net core application.
+- Install the nuget package or reference the project into your asp.net core application.(Microsoft.Extensions.Logging.Log4Net.AspNetCore)
 - Add the AddLog4Net() call into your Configure method of the Startup class.
 
 ```cs
@@ -61,3 +61,4 @@ public class HomeController
         //...
 }
 ```
+- Ouput (c:\Temp\app.log):
