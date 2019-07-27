@@ -4,7 +4,7 @@
 ![ngt](https://user-images.githubusercontent.com/37344605/61993202-2a1c8b80-b08a-11e9-9522-be8ac5b0a4c6.png)
 
 
-- Add the **AddLog4Net()** call into your Configure method of the Startup class.
+- Add the **AddLog4Net()** call into your Configure method of the **Startup.cs** class.
 
 ```cs
 using Microsoft.Extensions.Logging;
