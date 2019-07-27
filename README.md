@@ -1,10 +1,10 @@
 # ErrorLogger
-- Install the nuget package or reference the project into your asp.net core application.
+- Install the **nuget package** or reference the project into your asp.net core application.
 
 ![ngt](https://user-images.githubusercontent.com/37344605/61993202-2a1c8b80-b08a-11e9-9522-be8ac5b0a4c6.png)
 
 
-- Add the AddLog4Net() call into your Configure method of the Startup class.
+- Add the **AddLog4Net()** call into your Configure method of the Startup class.
 
 ```cs
 using Microsoft.Extensions.Logging;
@@ -26,9 +26,9 @@ public class Startup
 
 ```
 
-- Then log4net.config->Propertise->Copy to Output Directory->Change to Copy if newer
+- Then **log4net.config**->**Propertise**->**Copy to Output Directory**->Change to **Copy if newer**
 
-- Add a log4net.config file with the content:
+- Add a **log4net.config** file with the content:
 
 ```cs
 <?xml version="1.0" encoding="utf-8"?>
@@ -45,7 +45,7 @@ public class Startup
   </root>
 </log4net>
 ```
-- Add a HomeController.cs file with the content:
+- Add a **HomeController.cs** file with the content:
 
 ```cs
 public class HomeController
